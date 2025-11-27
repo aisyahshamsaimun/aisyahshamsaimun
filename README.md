@@ -1,86 +1,59 @@
-👋 Welcome to My GitHub Profile
 
-Hi there! I'm an Embedded Systems Engineer with hands-on experience in hardware design, firmware development, and system integration. I build reliable, production-ready embedded solutions across power monitoring, security systems, communication interfaces, and custom automation hardware.
+# 👋 Welcome to My GitHub Profile
 
-My work spans from PCB design and bring-up to bare-metal and RTOS-based firmware, with a strong focus on debugging, optimisation, and maintainability.
+Hi there! I'm an Embedded Systems Engineer with a strong foundation in hardware design, firmware development, and system-level engineering. I specialise in building reliable, scalable, and production-ready embedded solutions, from concept and PCB design all the way to firmware architecture and system integration.
 
-🌟 Areas of Expertise
-🔧 Embedded Systems & Firmware
+I enjoy working across the full embedded stack, designing hardware, writing efficient firmware, integrating communication interfaces, and refining system performance through structured debugging and optimisation.
 
-Bare-metal programming for PIC microcontrollers
+---
+## 🌟 Areas of Expertise
+### 🔧 Embedded Systems Engineering
+- Microcontroller-based system development (PIC, STM32, ARM Cortex-M)
+- RTOS and bare-metal firmware development
+- Communication protocols: UART, I²C, SPI, RS485, OSDP, Wiegand
+- Sensor integration, ADC handling, and peripheral driver development
+- System bring-up, fault analysis, and embedded debugging workflows
 
-STM32 development (with Zephyr RTOS and LL/HAL)
+### 🧱 Software Architecture & Firmware Quality
+- Multi-layer firmware architecture (Application → Manager → Middleware → Driver)
+- Modular command-processing frameworks
+- Concurrency-safe state handling and atomic operations
+- Asynchronous communication pipelines, event-driven systems
+- Firmware optimisation for maintainability and long-term reliability
 
-UART, I²C, SPI, ADC, watchdog, timers, power sequencing
+### ⚙️ Testing, Automation & Production
+- Automated test flow development
+- Factory test preparation, calibration, and QA processes
+- Watchdog design, failsafe logic, and robustness engineering
 
-System bring-up, debugging, and production testing
+### 🛠️ Hardware Design & Validation
+- PCB design & schematic development
+- Hardware bring-up, signal debugging, and instrumentation
+- Prototype and production-level verification & validation
+---
+## 🧪 Projects & Work Highlights
+### 🔌 Embedded System Development
+Designed end-to-end embedded solutions involving hardware, firmware, power management, and reliable communication interfaces.
 
-🛠️ Hardware & PCB Design
+### 🛡️ Secure & Reliable Communication Protocols
+Developed systems using industrial and access control protocols, with a focus on stability, error handling, and interoperability.
 
-Power monitoring boards
+### 🚀 RTOS-Based Firmware Architecture
+Built multi-module RTOS applications with async data pipelines, structured module responsibilities, and clean code separation.
 
-Access control boards (APC – Wiegand to OSDP converter)
+### 🔍 Debugging & Reliability Engineering
+Resolved complex issues in hardware and firmware systems using systematic debugging, instrumentation, and failure analysis.
 
-HCB2 Lift controller
+---
+## 🔍 What I’m Focusing On
 
-Circuit analysis, validation, and troubleshooting
+* Expanding embedded software architecture and RTOS design skills
+* Strengthening system reliability through robust debugging practices
+* Exploring modern tooling and workflows for cleaner, scalable firmware
+* Continuous learning in hardware–firmware co-design
+---
+## 📬 Let’s Connect
+I’m always open to collaborating or discussing embedded systems, firmware architecture, and hardware–software integration.
 
-📦 System Software Architecture
-
-Experience designing multi-layer firmware systems:
-Application → Manager → Middleware → Driver
-
-Lookup-table driven command/response frameworks
-
-Atomic operations, concurrency handling, async UART pipelines
-
-⚙️ Quality & Reliability
-
-Test automation setups
-
-Production test preparation (PSU, PCB validation)
-
-Robust fault analysis and watchdog handling
-
-🧪 Projects & Work Highlights
-🔌 Power Monitoring & Control Systems
-
-Designed and validated hardware + firmware for power measurement and control, including ADC integration, calibration flows, and power-fault handling.
-
-🛡️ Access Control Engineering
-
-Developed APC firmware for converting Wiegand ↔ OSDP protocols and ensuring secure, reliable communication interfaces.
-
-🚀 Zephyr RTOS Development (STM32F756)
-
-Working on a multi-module system involving:
-
-Async UART with FIFO
-
-Maintenance module handling structured commands
-
-Lookup-table driven responses
-
-Atomic-state logic for concurrency-safe operations
-
-🧰 Debugging & System Maintenance
-
-Investigated issues such as partial EEPROM failures, first-boot watchdog toggling bugs, and auto-logout reboot scenarios.
-
-🔍 What I'm Working On
-
-Improving firmware architecture for maintainability and clarity
-
-Deepening Zephyr RTOS knowledge across subsystems
-
-Enhancing robustness of embedded communication pipelines
-
-Expanding testing automation for production hardware
-
-📬 Let’s Connect
-
-Feel free to explore my repositories and reach out!
-I'm always open to discussing embedded systems, debugging challenges, or hardware–firmware integration.
-
-LinkedIn Profile
-https://www.linkedin.com/in/aisyahshamsaimun/
+LinkedIn Profile :
+[Aisyah Shamsaimun](https://www.linkedin.com/in/aisyahshamsaimun/)
