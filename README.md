@@ -8,18 +8,28 @@ I enjoy working across the full embedded stack, designing hardware, writing effi
 ---
 ## 🌟 Areas of Expertise
 ### 🔧 Embedded Systems Engineering
-- Microcontroller-based system development (PIC, STM32, ARM Cortex-M)
-- RTOS and bare-metal firmware development
-- Communication protocols: UART, I²C, SPI, RS485, OSDP, Wiegand
-- Sensor integration, ADC handling, and peripheral driver development
-- System bring-up, fault analysis, and embedded debugging workflows
+- Design and development of microcontroller-based systems (PIC, STM32, ARM Cortex-M)
+- RTOS and bare-metal firmware for resource-constrained environments
+- Low-level driver development, peripheral control, and hardware abstraction
+- Real-time constraints analysis, timing-critical logic, and deterministic behavior
+- System bring-up, root-cause analysis, and structured embedded debugging
 
-### 🧱 Software Architecture & Firmware Quality
-- Multi-layer firmware architecture (Application → Manager → Middleware → Driver)
-- Modular command-processing frameworks
-- Concurrency-safe state handling and atomic operations
-- Asynchronous communication pipelines, event-driven systems
-- Firmware optimisation for maintainability and long-term reliability
+### 🧱 Firmware Architecture & Software Quality
+
+- **Engineered a scalable, layered firmware architecture**  
+  (Application → Manager → Middleware → Driver) ensuring modularity and clear separation of concerns  
+- **Designed reusable command–response frameworks**  
+  enabling structured request handling, extensibility, and consistent response generation across components  
+- **Implemented event-driven, asynchronous communication pipelines**  
+  for non-blocking data flow, improving throughput and responsiveness in real-time systems  
+- **Established concurrency-safe state management**  
+  using atomic operations, synchronization primitives, and explicit state machines to guarantee deterministic behavior  
+- **Championed software quality practices**  
+  emphasizing code clarity, maintainability, and predictable execution in long-running embedded environments  
+- **Integrated defensive programming and diagnostic logging**  
+  to proactively detect anomalies, simplify debugging, and extend hardware longevity  
+- **Promoted scalability and reusability**  
+  by abstracting common routines into modular helpers and lookup tables, reducing duplication across boards and sensors  
 
 ### ⚙️ Testing, Automation & Production
 - Automated test flow development
