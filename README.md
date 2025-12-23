@@ -7,31 +7,35 @@ I enjoy working across the full embedded stack, designing hardware, writing effi
 
 ---
 ## 🌟 Areas of Expertise
-### 🔧 Embedded Systems Engineering
-- Design and development of microcontroller-based systems (PIC, STM32, ARM Cortex-M)
-- RTOS and bare-metal firmware for resource-constrained environments
-- Low-level driver development, peripheral control, and hardware abstraction
-- Real-time constraints analysis, timing-critical logic, and deterministic behavior
-- System bring-up, root-cause analysis, and structured embedded debugging
+### 🧱 Firmware Architecture & System-Level Design
+- Designed and implemented a layered firmware architecture  
+  (Application → Manager → Middleware → Driver) for clear separation of concerns
+- Developed modular command-based systems for structured device control
+- Built event-driven and asynchronous communication frameworks for responsive operation
+- Managed concurrency and system state safely using atomic operations and state machines
+- Focused on maintainable, predictable firmware behavior for long-running embedded systems
+  
+### 🔧 Embedded Application & Device Control
+- Developed application-level firmware for device control and system interaction
+- Implemented configuration management and persistent storage mechanisms
+- Designed a maintenance interface for device monitoring and control over UART
+- Integrated power monitoring and system status feedback into application logic
+- Bridged hardware-level data with application behavior and system management
 
-### 🧱 Firmware Architecture & Software Quality
-- Built a layered firmware setup (Application → Manager → Middleware → Driver) with clean separation of concerns  
-- Put together modular command–response frameworks to keep request handling structured and easy to extend  
-- Set up event-driven, async pipelines so data flows smoothly without blocking the system  
-- Made sure state handling is concurrency-safe using atomic ops, sync primitives, and state machines  
-- Focused on clarity and maintainability so the code stays predictable in long-running embedded systems  
-- Added defensive programming + logging to catch issues early and make debugging less painful  
-- Reused logic with helpers and lookup tables to cut down duplication across boards and sensors  
+### 🛠️ Hardware Design, Bring-Up & Validation
+- Designed and developed PCB hardware from schematic capture through layout (excluding fabrication)
+- Conducted hardware testing, validation, and systematic issue isolation for new boards
+- Led board bring-up activities, including power, clock, and peripheral verification
+- Developed bring-up firmware to validate on-board peripherals
+- Collaborated closely across hardware and firmware teams to resolve early-stage design issues
 
-### ⚙️ Testing, Automation & Production
-- Automated test flow development
-- Factory test preparation, calibration, and QA processes
-- Watchdog design, failsafe logic, and robustness engineering
+### ⚙️ Testing, Automation & Production Support
+- Developed automated test flows for hardware and firmware validation
+- Built Node-RED–based automation tools for peripheral testing and verification
+- Integrated firmware with Node-RED to enable efficient production testing
+- Prepared factory test software, calibration routines, and QA support tools
+- Facilitated smooth transition from prototype to production through test automation
 
-### 🛠️ Hardware Design & Validation
-- PCB design & schematic development
-- Hardware bring-up, signal debugging, and instrumentation
-- Prototype and production-level verification & validation
 ---
 ## 🧪 Projects & Work Highlights
 ### 🔌 Embedded System Development
@@ -53,6 +57,8 @@ Resolved complex issues in hardware and firmware systems using systematic debugg
 * Strengthening system reliability through robust debugging practices
 * Exploring modern tooling and workflows for cleaner, scalable firmware
 * Continuous learning in hardware–firmware co-design
+* Improving software versatility by learning Python for scripting, automation, and embedded system support
+  
 ---
 ## 📬 Let’s Connect
 I’m always open to collaborating or discussing embedded systems, firmware architecture, and hardware–software integration.
