@@ -15,21 +15,13 @@ I enjoy working across the full embedded stack, designing hardware, writing effi
 - System bring-up, root-cause analysis, and structured embedded debugging
 
 ### 🧱 Firmware Architecture & Software Quality
-
-- **Engineered a scalable, layered firmware architecture**  
-  (Application → Manager → Middleware → Driver) ensuring modularity and clear separation of concerns  
-- **Designed reusable command–response frameworks**  
-  enabling structured request handling, extensibility, and consistent response generation across components  
-- **Implemented event-driven, asynchronous communication pipelines**  
-  for non-blocking data flow, improving throughput and responsiveness in real-time systems  
-- **Established concurrency-safe state management**  
-  using atomic operations, synchronization primitives, and explicit state machines to guarantee deterministic behavior  
-- **Championed software quality practices**  
-  emphasizing code clarity, maintainability, and predictable execution in long-running embedded environments  
-- **Integrated defensive programming and diagnostic logging**  
-  to proactively detect anomalies, simplify debugging, and extend hardware longevity  
-- **Promoted scalability and reusability**  
-  by abstracting common routines into modular helpers and lookup tables, reducing duplication across boards and sensors  
+- Built a layered firmware setup (Application → Manager → Middleware → Driver) with clean separation of concerns  
+- Put together modular command–response frameworks to keep request handling structured and easy to extend  
+- Set up event-driven, async pipelines so data flows smoothly without blocking the system  
+- Made sure state handling is concurrency-safe using atomic ops, sync primitives, and state machines  
+- Focused on clarity and maintainability so the code stays predictable in long-running embedded systems  
+- Added defensive programming + logging to catch issues early and make debugging less painful  
+- Reused logic with helpers and lookup tables to cut down duplication across boards and sensors  
 
 ### ⚙️ Testing, Automation & Production
 - Automated test flow development
